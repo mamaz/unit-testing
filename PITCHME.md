@@ -166,10 +166,6 @@ const removeSpecialChars = (string) => {
 
 +++
 
-# BDD (Cont'd)
-
-+++
-
 ```
 describe('StringSanitizer: Remove special characters', () => {
   const fullnameNormal = 'Anjani';
@@ -209,6 +205,8 @@ describe('StringSanitizer: Remove special characters', () => {
   });
 });
 ```
+
+---?gist=cf4227416b55dac54a53
 
 ---
 
