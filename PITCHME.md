@@ -14,6 +14,8 @@ https://github.com/mamaz
 
 # Introduction
 
+---
+
 ## Unit testing
 
 - Testing the smallest testable part of software.
@@ -27,6 +29,8 @@ https://github.com/mamaz
 +++
 
 # Force you to design your program well
+
++++
 
 - More loosely-coupled code.
 - Enforce reusable code.
@@ -42,13 +46,21 @@ Example here.
 
 # Correctness
 
++++
+
+### Correctness
+
 - Checks logic errors against test cases.
 - Checks it the proper and structured way.
 - Makes you **trust** your methods or functions.
 
 +++
 
-# Reduce bugs
+# Reduce Bugs
+
++++
+
+### Reduce Bugs
 
 - In new features
 - In existing features
@@ -56,6 +68,10 @@ Example here.
 +++
 
 # Defensive Programming
+
++++
+
+### Defensive Programming
 
 - Protects against incorrect input.
 - Protects against other developers.
@@ -70,6 +86,10 @@ Example here
 
 # Makes development faster
 
++++
+
+### Makes development faster
+
 - Makes you slow down and think (?)
 - Reduce fear that something will break.
 - Leads to reduce the cost of change.
@@ -77,6 +97,10 @@ Example here
 +++
 
 # Good Documentation
+
++++
+
+### Good Documentations
 
 - Developer likes examples.
 - Unit tests are good documentations.
@@ -95,6 +119,8 @@ Typically people will make a program, after it's finished, then they create Unit
 
 # Your code could be not testable
 
+---
+
 - Tightly coupled code
 - MVC === Massive View Controller
 
@@ -105,6 +131,10 @@ Typically people will make a program, after it's finished, then they create Unit
 +++
 
 # Test-Driven Development (TDD)
+
++++
+
+### TDD
 
 - You write test first before writing any programs.
 - Makes all tests fails.
