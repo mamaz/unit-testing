@@ -122,9 +122,11 @@ Example here.
 
 ---
 
-# Your code could be not testable
+# Your codes might be not testable
 
 ---
+
+## Why?
 
 - Tightly coupled code
 - MVC === Massive View Controller
@@ -145,9 +147,41 @@ Example here.
 - Makes all tests fails.
 - Write methods or functions so that the test pass, one-by-one.
 
+## TDD is not a silver bullet
+
+I like to:
+- Design scenarios.
+- Define test cases.
+- Define interface and dependencies.
+- Write the codes
+
+more
+
 +++
 
 # Behavior-Driven Development (BDD)
+
+---
+
+## BDD
+
+- Based on behavior or scenarios
+- Use Gherkin Language
+
+```
+Feature: Upload 3GP video to Megaupload
+
+  Given: User open the upload file page
+  And: User has already chosen the file
+  When: he taps upload video
+  Then: the video will be uploaded to the backend
+```
+
+---
+
+## BDD in Unit Test
+
+Example here.
 
 ---
 
