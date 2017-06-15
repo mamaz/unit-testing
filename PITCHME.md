@@ -80,7 +80,10 @@ Example here.
 
 # Examples
 
-Example here
++++?gist=b7f32062e4d593f2edad7d4349d3cb6c
+
++++?gist=9508e6d90844376f5f9c10fe59136b35
+
 
 +++
 
@@ -126,7 +129,7 @@ Example here
 - Tightly coupled code
 - MVC === Massive View Controller
 
-+++
+---
 
 # TDD and BDD
 
@@ -145,68 +148,6 @@ Example here
 +++
 
 # Behavior-Driven Development (BDD)
-
-+++
-
-```
-/**
- * Remove special characters in a given string.
- *
- * Special characters including [`~!@#$%^&*()_|+-=?;:'",.<>{}[]\/ and whitespace
- * will be replaced by empty string ('')
- *
- * @param {string} string
- * @returns {string} - sanitized string
- */
-const removeSpecialChars = (string) => {
-  if (!string) return string;
-  return string.replace(/[`~!@#$%^&*()_|+\-=?;:'",.<>{}[\]\\/]/gi, '');
-};
-```
-
-+++
-
-```
-describe('StringSanitizer: Remove special characters', () => {
-  const fullnameNormal = 'Anjani';
-  const fullnameWithSpecialChar = '(Mika)';
-  const rubbishFullname = '(Anamika)*)(*)(%&^%^&$#@$!';
-  const rubbish = '`~!@#$%^&*()_|+-=?;:\'",.<>{}[]\\/';
-  const empty = '';
-  const nullString = null;
-  const undefinedString = undefined;
-
-  test('it should be able to do nothing if the string contains no special characters', () => {
-    expect(removeSpecialChars(fullnameNormal)).toBe('Anjani');
-  });
-
-  test('it should be able to remove simple special chars from a string', () => {
-    expect(removeSpecialChars(fullnameWithSpecialChar)).toBe('Mika');
-  });
-
-  test('it should be able to remove all special characters from a complex string', () => {
-    expect(removeSpecialChars(rubbishFullname)).toBe('Anamika');
-  });
-
-  test('it should be able to remove all special characters from all special chars string', () => {
-    expect(removeSpecialChars(rubbish)).toBe('');
-  });
-
-  test('it should be able to return null if the string is null', () => {
-    expect(removeSpecialChars(empty)).toBe('');
-  });
-
-  test('it should be able to return undefined if the string is undefined', () => {
-    expect(removeSpecialChars(nullString)).toBe(null);
-  });
-
-  test('it should be able to return empty string if the string is empty string', () => {
-    expect(removeSpecialChars(undefinedString)).toBe(undefined);
-  });
-});
-```
-
----?gist=cf4227416b55dac54a53
 
 ---
 
