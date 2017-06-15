@@ -48,7 +48,7 @@ Example here.
 
 +++
 
-### Correctness
+## Correctness
 
 - Checks logic errors against test cases.
 - Checks it the proper and structured way.
@@ -60,7 +60,7 @@ Example here.
 
 +++
 
-### Reduce Bugs
+## Reduce Bugs
 
 - In new features
 - In existing features
@@ -71,7 +71,7 @@ Example here.
 
 +++
 
-### Defensive Programming
+## Defensive Programming
 
 - Protects against incorrect input.
 - Protects against other developers.
@@ -88,7 +88,7 @@ Example here
 
 +++
 
-### Makes development faster
+## Makes development faster
 
 - Makes you slow down and think (?)
 - Reduce fear that something will break.
@@ -100,7 +100,7 @@ Example here
 
 +++
 
-### Good Documentations
+## Good Documentations
 
 - Developer likes examples.
 - Unit tests are good documentations.
@@ -109,7 +109,9 @@ Example here
 
 # How to make Unit Tests?
 
-Typically people will make a program, after it's finished, then they create Unit tests for it.
+---
+
+### Typically people will make a program, after it's finished, then they create Unit tests for it.
 
 ---
 
@@ -134,7 +136,7 @@ Typically people will make a program, after it's finished, then they create Unit
 
 +++
 
-### TDD
+## TDD
 
 - You write test first before writing any programs.
 - Makes all tests fails.
@@ -143,6 +145,8 @@ Typically people will make a program, after it's finished, then they create Unit
 +++
 
 # Behavior-Driven Development (BDD)
+
++++
 
 ```
 /**
@@ -163,6 +167,8 @@ const removeSpecialChars = (string) => {
 +++
 
 # BDD (Cont'd)
+
++++
 
 ```
 describe('StringSanitizer: Remove special characters', () => {
@@ -208,6 +214,10 @@ describe('StringSanitizer: Remove special characters', () => {
 
 # How can I make a good Unit test?
 
+---
+
+## Good Unit Tests
+
 - Test for correctness.
 - Test against bad or unexpected input.
 - Test against edge cases.
@@ -216,13 +226,15 @@ describe('StringSanitizer: Remove special characters', () => {
 
 ---
 
-# Unit Test Tools + Demo
+## Unit Test Tools + Demo
 
 - Mocks --> Call json api + view models
 - Spies --> Check button tap
 - Stubs --> Mock functions
 
-# End
+---
+
+# Q/A
 
 Sources:
 
