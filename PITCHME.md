@@ -166,13 +166,15 @@ Example here.
 
 ## So?
 
-I like to:
-- Design scenarios.
+(I think) It is better to:
+
+- Design high level architecture.
+- Design user scenarios.
 - Define test cases.
 - Define interface and dependencies.
-- Write the codes
-
-more.
+- Write the codes.
+- Write the tests based on test cases.
+- Run tests.
 
 +++
 
