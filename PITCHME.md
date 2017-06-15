@@ -93,7 +93,7 @@ Example here.
 
 ## Makes development faster
 
-- Makes you slow down and think (?)
+- Makes you to slow down and think (?)
 - Reduce fear that something will break.
 - Leads to reduce the cost of change.
 
@@ -112,26 +112,26 @@ Example here.
 
 # How to make Unit Tests?
 
----
++++
 
 ### Typically people will make a program, after it's finished, then they create Unit tests for it.
 
----
++++
 
 # In some cases, it's not a good practice
 
----
++++
 
 # Your codes might be not testable
 
----
++++
 
 ## Why?
 
 - Tightly coupled code
 - MVC === Massive View Controller
 
----
++++
 
 # TDD and BDD
 
@@ -144,10 +144,27 @@ Example here.
 ## TDD
 
 - You write test first before writing any programs.
-- Makes all tests fails.
-- Write methods or functions so that the test pass, one-by-one.
+- Run it, makes all tests fails.
+- Write methods or functions so that the tests pass, one-by-one.
+
++++
+
+# Why TDD?
+
++++
+
+# It forces you to design!
+
++++
 
 ## TDD is not a silver bullet
+
+- Limitation of testing tools
+- Limitation of platform
+
++++
+
+## So?
 
 I like to:
 - Design scenarios.
@@ -155,16 +172,17 @@ I like to:
 - Define interface and dependencies.
 - Write the codes
 
-more
+more.
 
 +++
 
 # Behavior-Driven Development (BDD)
 
----
++++
 
 ## BDD
 
+- Basically TDD++
 - Based on behavior or scenarios
 - Use Gherkin Language
 
@@ -177,7 +195,7 @@ Feature: Upload 3GP video to Megaupload
   Then: the video will be uploaded to the backend
 ```
 
----
++++
 
 ## BDD in Unit Test
 
@@ -185,9 +203,9 @@ Example here.
 
 ---
 
-# How can I make a good Unit test?
+# How can I make a good Unit Test?
 
----
++++
 
 ## Good Unit Tests
 
@@ -195,6 +213,7 @@ Example here.
 - Test against bad or unexpected input.
 - Test against edge cases.
 - Enforce Dependency Injection.
+- Does not have dependencies to API or database.
 - Use proper techniques or tools.
 
 ---
