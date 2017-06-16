@@ -40,7 +40,9 @@ https://github.com/mamaz
 
 # Dependency Injection
 
-Example here.
++++?gist=2efdb41984e6ec0c37261415762668a2
+
++++?gist=c7a344c5fcb9ac3cb76f550927e0b2d6
 
 +++
 
