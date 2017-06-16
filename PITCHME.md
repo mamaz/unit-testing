@@ -21,6 +21,7 @@ https://github.com/mamaz
 - Testing the smallest testable part of software.
 - Mostly functions, methods, or components.
 - As simple as giving input and test the output.
+- Can be run over and over (automated).
 
 ---
 
@@ -32,9 +33,11 @@ https://github.com/mamaz
 
 +++
 
+## It leads to..
+
 - More loosely-coupled code.
-- Enforce reusable code.
-- Force *Dependency Injection*
+- Enforcing reusable code.
+- Enforcing *Dependency Injection*
 
 +++
 
