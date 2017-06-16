@@ -116,22 +116,45 @@ https://github.com/mamaz
 
 +++
 
-### Typically people will make a program, after it's finished, then they create Unit tests for it.
+### Make a program
+
+### After it's finished
+
+### Make Unit Test
 
 +++
 
-# In some cases, it's not a good practice
+# Is it a correct way?
 
 +++
 
-# Your codes might be not testable
-
-+++
+# It's not a good practice
 
 ## Why?
 
++++
+
+# Your codes might not be testable
+
+## Why?
+
++++
+
+## It will likely to produce not testable codes
+
+- All Code in One Place
 - Tightly coupled code
 - MVC === Massive View Controller
+
++++
+
+# So how to make it?
+
++++
+
+## Your code
+
+## Your test code
 
 +++
 
@@ -155,7 +178,7 @@ https://github.com/mamaz
 
 +++
 
-# It forces you to design!
+# It forces you to design your program!
 
 +++
 
