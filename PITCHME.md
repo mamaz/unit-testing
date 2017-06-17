@@ -258,16 +258,13 @@ Feature: Upload 3GP video to Megaupload
 
 # Jenius is Hiring
 
+Roles:
+
 - Backend Developer
 - Frontend Developer
+- Fullstack Developer
 
-## Stack
-
-- React Native
-- Node.js
-- Rethink DB
-
-### mailto: jeniusteam@btpn.com
+mailto: jeniusteam@btpn.com
 
 ---
 
