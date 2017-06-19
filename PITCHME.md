@@ -257,7 +257,7 @@ Feature: Upload 3GP video to Megaupload
 
 ---
 
-## Stubs example
+# Stubs example
 
 ```
 const myMock = jest.fn();
